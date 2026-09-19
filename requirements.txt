@@ -1,2 +1,26 @@
-# numpy==1.23.4
-# pandas==1.5.0
+# dc.omniIngest - dependencias do Embedded Python
+#
+# Instaladas pelo Dockerfile em /usr/irissys/mgr/python, que e o unico
+# site-packages que o Embedded Python do IRIS enxerga.
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Producoes de Interoperabilidade escritas em Python puro
+intersystems-pyprod==0.2.0
+
+# Parsing de documentos (PDF, DOCX, PPTX, MD, TXT) com modelo de layout em CPU
+docling==2.55.1
+
+# torch CPU-only, PINADO COM O SUFIXO +cpu DE PROPOSITO.
+#
+# Nao basta passar --extra-index-url: o pip escolhe a versao mais alta entre os
+# indices, e o "torch" do PyPI vence. Em aarch64 esse torch do PyPI arrasta os
+# wheels CUDA da NVIDIA (nvidia-cufft sozinho tem 214 MB) para uma imagem que
+# roda o Docling em CPU. O sufixo local "+cpu" so existe no indice do PyTorch,
+# entao o PyPI nao tem como vencer a resolucao.
+#
+# Wheels usados: torch-2.14.0+cpu-cp312-cp312-manylinux_2_28_aarch64 (159 MB)
+# e o equivalente x86_64. Ao subir a versao, confirmar que o par torch/
+# torchvision existe no indice cpu para a arquitetura alvo.
+torch==2.14.0+cpu
+torchvision==0.29.0+cpu

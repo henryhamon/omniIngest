@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="dc-sample.ZPM">
+  <Document name="dc-omniIngest.ZPM">
     <Module>
-      <Name>dc-sample</Name>
-      <Version>2.0.11</Version>
-      <Description>Basic InterSystems IRIS Development Template</Description>
+      <Name>dc-omniIngest</Name>
+      <Version>1.0.0</Version>
+      <Description>dc.omniIngest - gateway de ingestao e parsing de documentos para InterSystems IRIS (Docling + chunking + embeddings), pronto para busca hibrida</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.sample.PKG"/>
-      <UnitTest Name="/tests" Package="dc.sample.unittests" Phase="test"/>
+      <Resource Name="dc.omniIngest.PKG"/>
+      <UnitTest Name="/tests" Package="tests.dc.omniIngest.unittests" Phase="test"/>
 
+      <Dependencies>
+        <!-- Gateway de embeddings multi-provider. O dc.omniIngest nao fala com
+             provider nenhum diretamente: ele chama a EmbeddingClass declarada
+             na %Embedding.Config, que em producao e a dc.OmniEmbedding. -->
+        <ModuleReference>
+          <Name>dc-omni-embedding</Name>
+          <Version>1.0.8</Version>
+        </ModuleReference>
+      </Dependencies>
     </Module>
   </Document>
 </Export>

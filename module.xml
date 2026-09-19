@@ -3,7 +3,7 @@
   <Document name="dc-omniIngest.ZPM">
     <Module>
       <Name>dc-omniIngest</Name>
-      <Version>1.0.0</Version>
+      <Version>1.0.1</Version>
       <Description>dc.omniIngest - gateway de ingestao e parsing de documentos para InterSystems IRIS (Docling + chunking + embeddings), pronto para busca hibrida</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>

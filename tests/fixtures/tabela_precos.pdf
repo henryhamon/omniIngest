@@ -1,0 +1,56 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 955 >>
+stream
+0.6 w
+BT /F1 18 Tf 60 780 Td (Tabela de Precos e Prazos) Tj ET
+BT /F1 11 Tf 60 750 Td (O prazo de entrega e de cinco dias uteis para capitais e dez para o interior.) Tj ET
+60 700 m 470 700 l S
+60 676 m 470 676 l S
+60 652 m 470 652 l S
+60 628 m 470 628 l S
+60 604 m 470 604 l S
+60 700 m 60 604 l S
+220 700 m 220 604 l S
+370 700 m 370 604 l S
+470 700 m 470 604 l S
+BT /F1 10 Tf 65 684 Td (Categoria) Tj ET
+BT /F1 10 Tf 225 684 Td (Prazo) Tj ET
+BT /F1 10 Tf 375 684 Td (Taxa) Tj ET
+BT /F1 10 Tf 65 660 Td (Eletronicos) Tj ET
+BT /F1 10 Tf 225 660 Td (30 dias) Tj ET
+BT /F1 10 Tf 375 660 Td (0%) Tj ET
+BT /F1 10 Tf 65 636 Td (Vestuario) Tj ET
+BT /F1 10 Tf 225 636 Td (15 dias) Tj ET
+BT /F1 10 Tf 375 636 Td (5%) Tj ET
+BT /F1 10 Tf 65 612 Td (Alimentos) Tj ET
+BT /F1 10 Tf 225 612 Td (nao aplicavel) Tj ET
+BT /F1 10 Tf 375 612 Td (-) Tj ET
+BT /F1 11 Tf 60 560 Td (O prazo de reembolso e de 30 dias corridos contados a partir da entrega. Pedidos fora do p) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001247 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1344
+%%EOF

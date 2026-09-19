@@ -1,0 +1,8 @@
+NOTAS DE SUPORTE
+
+Chamado 4412: cliente relatou atraso na entrega da regiao norte.
+Chamado 4413: solicitacao de reembolso dentro do prazo de 30 dias, aprovada.
+Chamado 4414: duvida sobre taxa de devolucao de vestuario, respondida com a tabela vigente.
+
+Formato sem paginas nem cabecalhos: serve para checar que a coluna page_numbers
+fica vazia e que o chunking sobrevive a um documento sem estrutura.
